@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f5f6fa;
+    color: #2f3640; 
+}
+header{
+    border-radius: 5px;
+    text-align:  center;
+    background: darkred;
+    padding:  20px;
+    color:black
+}
+header img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    height: 150px  
+}
+header h1{
+    font-size: 2.5rem;
+    margin: 10px 0 5px;
+}
+header p{
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}   
+nav{
+    background: #080808;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+nav a:hover{
+    color: #ff4757;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+section{
+    margin: 30px 0;
+    background-color: #a7a758;
+    padding: 20px;
+    border-radius: 10px;
+}
+section h2{
+    margin-bottom: 15px;
+    color: darkred;
+}
+section img{
+    width: 300px;
+    border-radius: 10px;
+}
+section img:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
+section ul{
+    list-style-type: none;
+    margin-left: 20px;
+}
+section p{
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+section li{
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: darkred;
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background: #080808;
+    color: #fff;
+    margin-top: 30px;
+}
+button{
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #ff4757;
+}
+div.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+a.order-button{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: darkred;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+a.order-button:hover{
+    background-color: #ff4757;
+}   
+div.card img{
+    width: 100%;
+    border-radius: 10px;
+}
